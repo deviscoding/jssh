@@ -1,0 +1,19 @@
+defaults:
+  domain: ""
+  username: ""
+  port: 22
+jamf:
+  username: ""
+  url: ""
+  ea_vpn: ""
+  ea_fqdn: ""
+dotfiles: ""
+options:
+  identity: true
+  jamf: false
+  dotsync: false
+  screen: false
+network:
+  internet: ['google.com','github.com','amazon.com']
+  local: []
+

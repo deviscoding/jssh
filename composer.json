@@ -1,0 +1,24 @@
+{
+    "name": "deviscoding/jssh",
+    "description": "SSH frontend for macOS admins, with enhancements: dotfile sync, SSH config entries, and integration with Jamf. Designed for admins working with a large number of systems in a WFH environment.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Aaron Jones",
+            "email": "aaron@jonesiscoding.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0",
+        "ext-json": "*",
+        "symfony/yaml": "^4.4",
+        "deviscoding/mac-console": "^1.3"
+    },
+    "version": "1.0",
+    "autoload": {
+        "psr-4": {
+            "DevCoding\\Mac\\Ssh\\": "src"
+        }
+    }
+}
